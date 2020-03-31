@@ -1,0 +1,64 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+
+h2 {
+  background: linear-gradient(#ff0800 5%, #221d11 100%);
+  text-align: center;
+  border-radius: 10px 10px;
+}
+
+div.container {
+  font-family: 'Raleway', sans-serif;
+}
+
+div.main {
+  background-color: #221d11;
+  border: 2px solid rgb(54, 51, 51);
+  font-family: raleway;
+}
+
+input[type=text],
+input[type=password] {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  margin-bottom: 25px;
+  margin-top: 5px;
+  border: 2px solid #ccc;
+  color: #4f4f4f;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+label {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+center {
+  font-size: 32px;
+}
+
+.note {
+  color: red;
+}
+
+.valid {
+  color: rgb(0, 92, 128);
+}
+
+input[type=button] {
+  font-size: 30px;
+  background: linear-gradient(#ffbc00 5%, #ffdd7f 100%);
+  border: 1px solid #e5a900;
+  color: #4E4D4B;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px 0;
+  outline: none;
+}
+
+input[type=button]:hover {
+  background: linear-gradient(#ffdd7f 5%, #ffbc00 100%);
+}
